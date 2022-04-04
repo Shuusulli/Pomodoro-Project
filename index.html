@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+
+    <script src="https://kit.fontawesome.com/407ceaf4ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav__container">
+            <ul class="nav__logo">
+                <li>
+                    <a href="#home"><i class="fas fa-check-circle"></i>Pomodoro</a>
+                </li>
+            </ul>
+            <ul class="nav__buttons">
+                <li>
+                    <a href="#news" class="report"><i class="far fa-chart-bar"></i>Report</a>
+                </li>
+                <li>
+                    <a href="#contact"><i class="fas fa-cogs"></i>Settings</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fas fa-sign-in-alt"></i>Login</a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </nav>
+
+    <div class="timer">
+        <div class="timer__list">
+            <ul>
+                <li><a href="#" id="Pomodoro">Pomodoro</a></li>
+                <li><a href="#">Short Break</a></li>
+                <li><a href="#">Long Break</a></li>
+            </ul>
+        </div>
+        <div class="clock">
+            <p id="time">START</p>
+        </div>
+        <div class="start">
+            <button class="start__button" id="Start">START</button>
+        </div>
+    </div>
+
+    <div class="tasks">
+        <div class="tasks__title">
+            <h2>TAKS</h2>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+
+        <hr class="tasks__hr">
+
+        <div class="tasks__container">
+
+            
+                <i class="fas fa-plus-circle"></i><h3>Add Task</h3>
+            
+
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
